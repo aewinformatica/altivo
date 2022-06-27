@@ -1,0 +1,12 @@
+const <%= props.name %>Schema = {
+    name: '<%= props.id %>',
+    primaryKey: '<%= props.id %>_id',
+    properties: {
+      <%= props.id %>_id: { type: 'string', isIndexed: true },
+      <%= props.id %>_id_api: 'string?',
+      sync: 'bool',
+      deleted: 'bool',
+    }
+  };
+
+export default <%= props.name %>Schema;

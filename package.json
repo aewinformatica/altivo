@@ -1,6 +1,6 @@
 {
   "name": "altivo",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "altivo CLI",
   "bin": {
     "altivo": "bin/altivo"
